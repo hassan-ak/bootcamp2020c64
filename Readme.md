@@ -4,6 +4,12 @@
 
 ### Class Notes
 
+SNS is automation, publishing and processing of messages (PUBS/SUB). Messages are published to topic where they are labelled and filtered and based on that delievered to subscribers which can be app to person or app to app. SNS is a push base service which deliever the message to all listeners.
+
+SQS are simple que service which stores the message and deliever it when asked. It is a pull base service.
+
+SES is for emails only.
+
 ### Sections
 
 - [Simple Email Services](./step16_simple_email_service)
