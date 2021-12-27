@@ -139,5 +139,17 @@
     ```
 
 12. Deploy the app using `npm run cdk deploy`
-13. Now go to your SES console. Click on the Rule Sets tab. You will see by default your default-rule-set is already activated, so you have to disable it first, than activate your new rule set which you have created with CDK deployment.
-14. Destroy the app using `npm run cdk destroy` before that make sure that you have disabled your rule set otherwire you will get an error.
+13. Go to your AWS Simple Email Service console and verify new email address.
+14. Open Postaman and create a new post request
+15. In the body use the following Data
+
+    ```json
+    {
+      "to": "Reciever Email",
+      "from": "Sender Email",
+      "subject": "Subject",
+      "text": "Body"
+    }
+    ```
+
+16. Destroy the app using `npm run cdk destroy` before that make sure that you have disabled your rule set otherwire you will get an error.
