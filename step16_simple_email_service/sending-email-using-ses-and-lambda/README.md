@@ -152,4 +152,4 @@
     }
     ```
 
-16. Destroy the app using `npm run cdk destroy` before that make sure that you have disabled your rule set otherwire you will get an error.
+16. Destroy the app using `npm run cdk destroy`.
